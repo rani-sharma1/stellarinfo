@@ -1,0 +1,130 @@
+*{
+   margin: 0%;
+   padding: 0%; 
+   
+}
+.navbar{
+    background: linear-gradient(-147deg,
+    rgb(245, 56, 67) 0%, rgb(47, 87, 149) 100%);
+    color: white;
+}
+  .navbar ul {
+    padding: 4px;
+    padding-right: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+  }
+  .navbar ul li {
+    color: white;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .nav2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+.nav2 .col-three li{
+   list-style: none;
+   gap: 20px;
+   justify-content: space-evenly;
+   display: inline-flex;
+   font-size: small;
+   padding: 20px;
+   font-weight: bold;
+   
+}
+.nav2 .col-three .info{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  
+}
+
+
+
+/* section */
+.main{
+    padding:20px
+}
+.container{
+    text-align: center;
+   
+}
+.h3{
+    color: #e11f26;
+}
+.heading
+{
+    padding: 10px
+}
+h2{
+    text-align: center;
+    
+}
+.categories
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.col-3{
+    height: 25%;
+    width: 22%;
+    background-color:  hsl(0, 24%, 96%);
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    border-top: 7px solid;
+    border-color:rgb(47, 87, 149)
+}
+.icon{
+    font-size: 35px;
+    margin: 10px;
+    text-align: center;
+}
+.product{
+    padding: 10PX;
+}
+h2
+{
+    color: #e11f26;
+    font-size: medium;
+}
+p{
+    color: rgb(61, 59, 59);
+    padding: 10Px;
+    font-size: smaller;
+}
+.button_box 
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.button_box button{
+   /*
+   border-radius: 60PX;
+   font-size: 20px
+   height fit-content
+   */
+   padding: 10px 20px;
+   border: none;
+   border-radius: 20px;
+   font-size: 16px;
+   cursor: pointer;
+}
+.download-button:hover {
+    background-color: #28a745; 
+    transform: scale(1.05);
+   
+}
