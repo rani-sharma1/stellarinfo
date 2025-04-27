@@ -1,6 +1,7 @@
 *{
    margin: 0%;
-   padding: 0%; 
+   padding: 0%;
+   font-family: 'Noto Sans';
    
 }
 .navbar{
@@ -78,14 +79,16 @@ h2{
     justify-content: center;
 }
 .col-3{
-    height: 25%;
-    width: 22%;
-    background-color:  hsl(0, 24%, 96%);
-    margin: 20px;
+    width: 25%;
+    background-color: hsl(0, 24%, 96%);
+    margin: 10px;
     border-radius: 15px;
     padding: 10px;
-    border-top: 7px solid;
-    border-color:rgb(47, 87, 149)
+    border-top: 7px solid rgb(47, 87, 149);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;  
 }
 .icon{
     font-size: 35px;
@@ -105,26 +108,55 @@ p{
     padding: 10Px;
     font-size: smaller;
 }
-.button_box 
-{
-    display: flex;
+.button_box{
+    text-align: center;
+    padding: 12px;
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
+    gap: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
     
 }
-.button_box button{
-   /*
-   border-radius: 60PX;
-   font-size: 20px
-   height fit-content
-   */
-   padding: 10px 20px;
-   border: none;
-   border-radius: 20px;
-   font-size: 16px;
-   cursor: pointer;
+span{
+    cursor: pointer;
+    border-radius: 20PX;
 }
-.download-button:hover {
-    background-color: #28a745; 
-    transform: scale(1.05);
-   
+.button_box:hover {
+    background-color: #55ad81;
+    border-radius: 30px;
 }
+/*-------logo------*/
+
+.box{
+    padding: 10PX;
+    background: linear-gradient(105deg, rgb(255 255 255) 6%,
+     rgba(255, 230, 231, 1) 30%, rgba(234, 242, 254, 1) 51%,
+      rgba(234, 242, 254, 1) 65%, rgba(255, 230, 231, 1) 117%);
+}
+.small p{
+    padding: 8PX;
+    text-align: center;
+    font-size: 16PX;
+    font-weight: bold;
+    color: #e11f26;
+}
+.main_heading p{
+    text-align: center;
+    font-size: 20PX;
+    font-weight: bold;
+}
+.logo{
+    padding: 20px;
+    text-align: center;
+}
+.logo img{
+    margin: 10Px;
+    height: fit-content;
+
+}
+
+
